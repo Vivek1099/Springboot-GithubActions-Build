@@ -37,7 +37,7 @@ jobs:
       run: mvn test
 
     - name: Upload JAR as artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v1
       with:
-        name: actionsapp
+        name: actionapp
         path: target/*.jar
